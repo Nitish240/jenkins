@@ -1,11 +1,10 @@
-provider "aws" {
-  region = "ap-northeast-3"
-  access_Key = "AKIA5RXZMCSEOOXGUXU5"
-  secret_key = "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"
-
+provider "aws" {                        #aws "laptop backup account key"
+  region     = "ap-northeast-3"
+  access_key = "AKIA5RXZMCSEOJHECF24"
+  secret_key = "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"
 }
 
-   Resource "aws_instance" "instance1" {
+   resource "aws_instance" "instance1" {
    ami           = "ami-0ca3b0faa0c4c4bbd" # ap-south-1
    instance_type = "t2.micro"
    tags = {
