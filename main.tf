@@ -6,10 +6,10 @@ provider "aws" {                        #aws "laptop backup account key"
 
    resource "aws_instance" "instance1" {
    ami           = "ami-0ca3b0faa0c4c4bbd" # ap-south-1
-   instance_type = "t2.micro"
+   instance_type = "t3.micro"
    tags = {
    
-      Name = "webserver"
+     Name = "webserver"
     
     }
    } 
