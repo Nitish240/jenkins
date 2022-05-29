@@ -5,7 +5,7 @@ provider "aws" {                        #aws "laptop backup account key"
 }
 
   resource "aws_ebs_volume" "example" {
-  availability_zone = "us-west-2a"
+  availability_zone = "ap-northeast-3a"
   size              = 40
 
   tags = {
