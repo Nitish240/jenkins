@@ -1,7 +1,7 @@
 provider "aws" {                        #aws "laptop backup account key"
   region     = "eu-west-2"
-  access_key = "AKIA5RXZMCSEOJHECF24"
-  secret_key = "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"
+  access_key = "AKIA356EZ2U4YBHFGY3E"
+  secret_key = "CYO7BqZpDj912svqv6CQmw2yQATzHggDpdHWx7Qi"
 }
   resource "aws_ebs_volume" "example" {
   availability_zone = "eu-west-2a"
