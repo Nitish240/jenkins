@@ -7,7 +7,7 @@ provider "aws" {                        #aws "laptop backup account key"
   availability_zone = "eu-west-2a"
   size              = 40
   tags = {
-    Name = "web-server"
+    Name = "web-server1"
   }
 }
     
